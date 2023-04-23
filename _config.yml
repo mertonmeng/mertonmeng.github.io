@@ -19,8 +19,8 @@ plugins:
   - not-pure-poole
 
 # Optimize Jekyll
-exclude: [vendor]
 exclude:
+  - vendor
   - .editorconfig
   - .git
   - .jekyll-cache
