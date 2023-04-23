@@ -1,0 +1,64 @@
+# Setup
+title: Shang's Tech Corner
+description: 
+  Just another Tech blog. Focus on Computer Vision, Robotics and Deep Learning stuff for now 
+  until I lose my job and deliver pizza to make a living when ChatGPT takes over.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://mertonmeng.github.io
+avatar: /avatar.jpg
+paginate: 5
+permalink: pretty
+cover_image: /bg.jpg
+
+# Build settings
+theme: not-pure-poole
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - not-pure-poole
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
+
+# Optimize Jekyl SEO Tag
+twitter:
+  username: mertonmeng
+  card: summary
+logo: logo.png
+social:
+  name: Shang
+  links:
+    - https://twitter.com/Modunmeng
+    - https://github.com/mertonmeng
+google_site_verification: xxxxx
+lang: en
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
+
+# Replace this value and uncomment to enable Disqus
+# disqus: xxxxxx
+
+# Specify the author for blog posts
+author:
+  name: Shang
+  url: https://mertonmeng.github.io
+  email: mertonmeng + gmail
