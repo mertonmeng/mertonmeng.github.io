@@ -1,8 +1,6 @@
 # Setup
 title: Shang's Tech Corner
-description: 
-  Just another Tech blog. Focus on Computer Vision, Robotics and Deep Learning stuff for now 
-  until I lose my job and deliver pizza to make a living when ChatGPT takes over.
+description: Just another Tech blog. Focus on Computer Vision, Robotics and Deep Learning stuff for now until I lose my job and deliver pizza to make a living when ChatGPT takes over.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://mertonmeng.github.io
 avatar: /avatar.jpg
@@ -22,6 +20,7 @@ plugins:
 
 # Optimize Jekyll
 exclude: [vendor]
+exclude:
   - .editorconfig
   - .git
   - .jekyll-cache
