@@ -212,6 +212,8 @@ GEM
     minitest (5.18.0)
     nokogiri (1.14.3-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.14.3-x86_64-linux)
+      racc (~> 1.4)
     not-pure-poole (0.1.0)
       jekyll (~> 3.9)
       jekyll-feed (~> 0.13)
@@ -262,6 +264,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   github-pages (~> 228)
