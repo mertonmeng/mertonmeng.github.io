@@ -57,6 +57,7 @@ sudo systemctl status nginx
 ```
 server_names_hash_bucket_size  128;
 ```
+
 # Testing
 After both FastAPI(Uvicorn) and Nginx server is up, you can try to curl the EC2 DNS address
 ```bash
