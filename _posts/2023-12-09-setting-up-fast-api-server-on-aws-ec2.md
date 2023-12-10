@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Blog!"
+title:  "Setting up FastAPI server on AWS EC2"
 date:   2023-12-09 16:30:30 -0700
 tags: Cloud, AWS
 ---
